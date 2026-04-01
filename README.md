@@ -29,6 +29,7 @@ Severe
 Proliferative_DR
 
 - Lesion Classification
+
 Architecture: EfficientNet-B2
 Classes:
 Microaneurysms
