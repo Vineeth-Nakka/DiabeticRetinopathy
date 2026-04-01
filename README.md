@@ -21,6 +21,7 @@ Models Used
 - Severity Classification
 
 Architecture: EfficientNet-B2 / ResNet50
+
 Classes:
 No_DR,
 Mild,
@@ -31,6 +32,7 @@ Proliferative_DR
 - Lesion Classification
 
 Architecture: EfficientNet-B2
+
 Classes:
 Microaneurysms,
 Haemorrhages,
