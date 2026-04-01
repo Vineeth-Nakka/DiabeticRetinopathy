@@ -52,8 +52,10 @@ Installation
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/DiabeticRetinopathy.git
 cd DiabeticRetinopathy
+
 2️⃣ Create Virtual Environment
 python -m venv dr_env
+
 3️⃣ Activate Virtual Environment
 
 Windows:
