@@ -45,5 +45,38 @@ Image Normalization
 
 <img width="730" height="247" alt="image" src="https://github.com/user-attachments/assets/08a1392a-c5e2-4079-baa2-ea36454c9318" />
 <img width="295" height="77" alt="image" src="https://github.com/user-attachments/assets/f79b56b3-e596-44a8-8ee2-5b27a2a27cee" />
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Installation 
 
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/DiabeticRetinopathy.git
+cd DiabeticRetinopathy
+2️⃣ Create Virtual Environment
+python -m venv dr_env
+3️⃣ Activate Virtual Environment
+
+Windows:
+
+dr_env\Scripts\activate
+
+Linux / Mac:
+
+source dr_env/bin/activate
+4️⃣ Upgrade pip
+pip install --upgrade pip
+5️⃣ Install PyTorch (CUDA 12.1)
+pip install torch==2.5.1+cu121 torchvision==0.20.1+cu121 torchaudio==2.5.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+
+💡 If you don’t have a GPU, use CPU version:
+
+pip install torch torchvision torchaudio
+6️⃣ Install Remaining Dependencies
+pip install timm==1.0.25 pandas==2.3.3 numpy==2.2.6 Pillow==12.0.0 scikit-learn==1.7.2 matplotlib==3.10.8 tqdm==4.67.3
+7️⃣ Verify Installation
+
+Run Python and check:
+
+import torch
+print(torch.__version__)
+print("CUDA Available:", torch.cuda.is_available())
 
