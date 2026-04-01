@@ -44,12 +44,12 @@ Optic Disc
 Circular Cropping,
 CLAHE (Contrast Enhancement),
 Image Normalization
-______________________________________________________________________________________________________________________________
+
 ## Outputs
 
 <img width="730" height="247" alt="image" src="https://github.com/user-attachments/assets/08a1392a-c5e2-4079-baa2-ea36454c9318" />
 <img width="295" height="77" alt="image" src="https://github.com/user-attachments/assets/f79b56b3-e596-44a8-8ee2-5b27a2a27cee" />
-______________________________________________________________________________________________________________________________
+
 ## ⚙️ Installation
 
 ### 1️⃣ Clone the Repository
