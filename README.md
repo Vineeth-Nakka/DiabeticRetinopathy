@@ -47,39 +47,55 @@ Image Normalization
 <img width="295" height="77" alt="image" src="https://github.com/user-attachments/assets/f79b56b3-e596-44a8-8ee2-5b27a2a27cee" />
 ______________________________________________________________________________________________________________________________________________________
 
-Installation 
+## ⚙️ Installation
 
-1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/your-username/DiabeticRetinopathy.git
 cd DiabeticRetinopathy
+```
 
-2️⃣ Create Virtual Environment
+### 2️⃣ Create Virtual Environment
+```bash
 python -m venv dr_env
+```
 
-3️⃣ Activate Virtual Environment
+### 3️⃣ Activate Virtual Environment
 
-Windows:
-
+**Windows:**
+```bash
 dr_env\Scripts\activate
+```
 
-Linux / Mac:
-
+**Linux / Mac:**
+```bash
 source dr_env/bin/activate
-4️⃣ Upgrade pip
+```
+
+### 4️⃣ Upgrade pip
+```bash
 pip install --upgrade pip
-5️⃣ Install PyTorch (CUDA 12.1)
+```
+
+### 5️⃣ Install PyTorch (CUDA 12.1)
+```bash
 pip install torch==2.5.1+cu121 torchvision==0.20.1+cu121 torchaudio==2.5.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+```
 
-💡 If you don’t have a GPU, use CPU version:
-
+💡 If you don’t have a GPU:
+```bash
 pip install torch torchvision torchaudio
-6️⃣ Install Remaining Dependencies
+```
+
+### 6️⃣ Install Remaining Dependencies
+```bash
 pip install timm==1.0.25 pandas==2.3.3 numpy==2.2.6 Pillow==12.0.0 scikit-learn==1.7.2 matplotlib==3.10.8 tqdm==4.67.3
-7️⃣ Verify Installation
+```
 
-Run Python and check:
-
+### 7️⃣ Verify Installation
+```python
 import torch
 print(torch.__version__)
 print("CUDA Available:", torch.cuda.is_available())
+```
 
