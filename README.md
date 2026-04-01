@@ -40,7 +40,7 @@ Hard Exudates,
 Soft Exudates,
 Optic Disc
 
-##Applied to Lesion Model:
+## Applied to Lesion Model:
 Circular Cropping,
 CLAHE (Contrast Enhancement),
 Image Normalization
