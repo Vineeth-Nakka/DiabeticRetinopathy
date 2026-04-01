@@ -10,15 +10,15 @@ Diabetic Retinopathy is a leading cause of blindness if not detected early.
 This project proposes a dual-model system that not only classifies disease severity but also identifies specific retinal lesions, making predictions more interpretable and clinically meaningful.
 
 Features
-✔ Severity Classification (No_DR → Proliferative_DR)
-✔ Lesion Detection (Microaneurysms, Exudates, etc.)
-✔ Grad-CAM Visualization
-✔ Hybrid Inference Pipeline
-✔ Clean Report-Style Output UI
-✔ Model Comparison (EfficientNet vs ResNet)
+- Severity Classification (No_DR → Proliferative_DR)
+- Lesion Detection (Microaneurysms, Exudates, etc.)
+- Grad-CAM Visualization
+- Hybrid Inference Pipeline
+- Clean Report-Style Output UI
+- Model Comparison (EfficientNet vs ResNet)
 
 Models Used
-🔹 Severity Classification
+- Severity Classification
 Architecture: EfficientNet-B2 / ResNet50
 Classes:
 No_DR
@@ -26,7 +26,7 @@ Mild
 Moderate
 Severe
 Proliferative_DR
-🔹 Lesion Classification
+- Lesion Classification
 Architecture: EfficientNet-B2
 Classes:
 Microaneurysms
